@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Padhivakki",
+  "description": "Context menu option to save items along with the webpage URL in a text file locally.",
+  "version": "1.0.0",
+  "icons": {
+    "16": "images/icon.png",
+    "32": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-script.js"]
+    }
+  ],
+
+  "permissions": ["contextMenus", "storage", "activeTab"]
+}
