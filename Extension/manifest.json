@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Padhivakki",
-  "description": "A chrome extension to save highlighted text to a local file along with webpage URL",
+  "description": "An chromium extension to save highlighted text to a local file along with webpage URL",
   "version": "1.0.0",
   "icons": {
     "16": "images/icon.png",

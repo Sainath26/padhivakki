@@ -5,5 +5,9 @@ chrome.contextMenus.create({
 });
 
 chrome.contextMenus.onClicked.addListener((item, tab) => {
-  console.log(item.selectionText);
+  let Text = [
+    { "Website Link": item.pageUrl },
+    { "Selected Text": item.selectionText },
+  ];
+  console.log(Text);
 });
