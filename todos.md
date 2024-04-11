@@ -1,3 +1,8 @@
+**Next Steps**
+
+1. Disable CORS and send data from the extension
+2. Format the data that is getting written properly
+
 **R1**
 
 1. Create a web extension that creates a context menu option-"save the sentence"
