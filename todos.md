@@ -4,6 +4,7 @@
 
 
 **R1**
+
 1. Create a web extension that creates a context menu option-"save the sentence"
 2. save the highlighted word into a variable or clipboard
 3. make this stored/copied variable to get stored in the given .md file location
@@ -12,5 +13,6 @@
 
 
 **R2**
+
 6. Give option in the web extension to choose a file location for the highlighted text to get saved
 7. Focus on the extension display styling
