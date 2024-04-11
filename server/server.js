@@ -13,15 +13,13 @@ app.post("/data", (req, res) => {
   res.status(200).json({ message: req.body });
 });
 
-// Start the server
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });
 
 function saveThis(data) {
-  const filename = "sample.txt"; // Customize the filename if desired
+  const filename = "sample.txt";
 
-  // Add a newline to the data if it doesn't already end with one
   const formattedData = data;
 
   fs.appendFile(filename, formattedData, (err) => {
