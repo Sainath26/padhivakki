@@ -1,7 +1,7 @@
 **Next Steps**
-1. Disable CORS and send data from the extension
-2. Format the data that is getting written properly
 
+1. Find a way to not use cors and still save data. Explore Selenium route
+2. Format the data that is getting written.
 
 **R1**
 
@@ -10,7 +10,6 @@
 3. make this stored/copied variable to get stored in the given .md file location
 4. Along with the variable the website link should also get saved to this .md file
 5. This website link should be saved in italics with indentation
-
 
 **R2**
 
