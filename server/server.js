@@ -3,13 +3,19 @@ const bodyParser = require("body-parser");
 const fs = require("fs");
 const app = express();
 const port = 3000;
-
+const cors = require("cors");
 app.use(bodyParser.json());
+app.use(
+  cors({
+    origin: true,
+  })
+);
 
 app.post("/data", (req, res) => {
   const receivedData = req.body;
   var data = JSON.stringify(receivedData);
   saveThis(data);
+  saveThis("\n");
   res.status(200).json({ message: req.body });
 });
 

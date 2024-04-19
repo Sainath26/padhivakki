@@ -1,1 +1,1 @@
-{"Website Link":"kjhkjhkjhkjh","Selected Text":"Hello"}
+[{"Website Link":"https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions"},{"Selected Text":"permissions"}][{"Website Link":"https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions"},{"Selected Text":"permissions"}][{"Website Link":"https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions"},{"Selected Text":"permissions"}]
